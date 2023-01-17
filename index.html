@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Portfolio</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <header>
+      <img id="logo" src="img/logo.png">
+      <nav>
+        <ul>
+          <li><a href="#home-section" accesskey="h">Home</a></li>
+          <li><a href="#aboutme-section" accesskey="a">About Me</a></li>
+          <li><a href="#services-section" accesskey="s">Services</a></li>
+          <li><a href="#projects-section" accesskey="p">Projects</a></li>
+          <li><a href="#contactme-section" accesskey="c">Contact Me</a></li>
+        </ul>
+      </nav>
+  </header>
+
+  <section role="region" aria-labelledby="home-section">
+    <div class="container">
+      <div class="left">
+        <p>Hello, I am</p>
+        <h1>Osama Abdulghani</h1>
+        <h2>Developer and Designer</h2>
+        <p>A Developer & Designer with +5 years of experience. Keeps customers happy and satisfied with the services delivered with the best effort.</p>
+        <button>Download CV</button>
+        <button>Watch my work</button>
+      </div>
+      <div class="right">
+        <img src="img/person.jpg" alt="person" class="person">
+      </div>
+    </div>
+  </section>
+
+  <section role="region" aria-labelledby="aboutme-section">
+    <div class="container">
+      <div class="left">
+        <img src="img/person2.jpg" alt="person" class="person2">
+      </div>
+      <div class="right">
+        <h1>About me</h1>
+        <h3>Creative Developer & Designer</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna     aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        <button>Find more</button>
+      </div>
+    </div>
+  </section>
+  
+  <section role="region" aria-labelledby="services-section">
+    <h1 class="title">My Services</h1>
+    <div class="second_container">
+
+      <div class="plainbox">
+        <img src="img/phone.png" alt="service1" class="service">
+        <h2>Web Design</h2>
+        <p class="txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <button>Find More</button>
+      </div>
+
+      <div class="plainbox">
+        <img src="img/code.png" alt="service1" class="service">
+        <h2>Web Development</h2>
+        <p class="txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <button>Find More</button>
+      </div>
+
+      <div class="plainbox">
+        <img src="img/paint.png" alt="service1" class="service">
+        <h2>Creative Design</h2>
+        <p class="txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <button>Find More</button>
+      </div>
+    </div>
+  </section>
+
+  <section role="region" aria-labelledby="projects-section">
+    <h1 class="title">Latest Projects</h1>
+    <div id="projects">
+      <img src="img/p1.jpg" alt="project1">
+      <img src="img/p2.jpg" alt="project2">
+      <img src="img/p3.jpg" alt="project3">
+      <img src="img/p4.jpg" alt="project4">
+      <img src="img/p5.jpg" alt="project5">
+      <img src="img/p6.jpg" alt="project6">
+    </div>
+  </section>
+
+  <section role="region" aria-labelledby="contactme-section">
+    <div class="container">
+      <div class="left">
+        <h1>Contact me!</h1>
+        <h3>If you have any projects in mind</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <div class="wrapper">
+          <p>0000000000</p>
+          <p>david@gmail.com</p>
+          <p>Florida, USA</p>
+        </div>
+        <div class="platforms">
+          <img src="img/facebook.png" alt="facebook" class="platform">
+          <img src="img/twitter.png" alt="twitter" class="platform">
+          <img src="img/youtube.png" alt="youtube" class="platform">
+          <img src="img/whatsapp.png" alt="whatsapp" class="platform">
+        </div>
+      </div>
+      <div class="right">
+        <form action="" method="post">
+          <div class="info">
+            <input type="text" class="name" name="name" placeholder="Name">
+          </div>
+          <div class="info">
+            <input type="email" class="email" name="email" placeholder="Your email">
+          </div>
+          <div class="info">
+            <input type="text" class="project-title" name="project-title" placeholder="project title">
+          </div>
+          <div class="info">
+            <textarea class="project-idea" name="project-idea" rows="6" cols="30" placeholder="project description"></textarea>
+          </div>
+          <input text="submit" value="Send Message" class="send">
+        </form>
+        <button class="return">&#8593;</button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+     <p>Copyright © 2023 by Meriem UOS GDSC All rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+</body>
+
+</html>

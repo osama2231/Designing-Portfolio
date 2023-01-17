@@ -1,0 +1,163 @@
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+  background: #f5f6f7;
+  color: #1b1b32;
+  font-family: Helvetica;
+  margin: 0;
+}
+
+header {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  border-bottom: 1px solid #A9A9A9;
+}
+
+#logo {
+  width: max(100px, 18vw);
+  height: 50px;
+  padding: 1.2rem;
+}
+
+nav {
+  width: 70%;
+  max-width: 500px;
+  height: 50px;
+}
+
+nav > ul {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-inline-start: 0;
+  margin-block: 0;
+  height: 100%;
+}
+
+nav > ul > li {
+  color: #696969;
+  margin: 0 0.2rem;
+  padding: 0.2rem;
+  display: block;
+}
+
+nav > ul > li:hover {
+  text-decoration: underline;
+  color: #40E0D0; 
+  cursor: pointer;
+}
+
+li > a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button{
+  background-color: #E9967A;
+  color: black;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+section{
+  width: 80%;
+  margin: 10px auto 10px auto;
+}
+
+.container{
+  display:flex;
+  align-items: center;
+  Justify-content: space-between;
+  padding: 40px 0;
+}
+
+img.person{
+  height: auto;
+  max-width: 600px;
+  padding-left: 50px;
+}
+
+.container .rigth, .container .left {
+  width: 60%;
+}
+
+.container .left{
+  margin-right: 20px;
+}
+
+img.person2{
+  height: auto;
+  max-width: 400px;
+  padding-left: 30px;
+}
+
+.title{
+  text-align: center;
+  font-size:36px;
+  font-weight: bolder;
+  color: #1F2937;
+  margin-top: 45px;
+  text-decoration: underline;
+}
+
+.second_container{
+  display: flex;
+  justify-content: center;
+  padding: 30px 0px;
+  gap:48px; 
+}
+
+.plainbox{
+  width: 220px;
+  height: 200px;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.plainbox img.service{
+  width: 30px;
+  height: 30px;
+}
+
+#projects{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  max-width: 1800px;
+  margin: 0 auto;
+  padding: 20px 10px;
+}
+
+#projects img {
+  width: 100%;
+  max-width: 350px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+input.send{
+  background-color: #E9967A;
+  color: black;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+footer{
+  border-top: 1px solid #A9A9A9;
+  text-align: center;
+  line-height: 50px;
+  height: 50px;
+}
